@@ -2,7 +2,29 @@
  * YOUR CODE GOES RIGHT HERE! *
  ******************************/
 
+function fizzy(x){
+  if(x % 3 === 0 && x % 5 === 0){
+    return "FizzBuzz"}
+  else if(x % 3 === 0){
+    return "Fizz"
+  } else if(x % 5 === 0){
+    return "Buzz"
+  } else{
+    return x 
+  }
+}
 
+// function fizzy(num){
+//   if (num % 3 === 0 && num % 5 !== 0){
+//     return "Fizz"
+//   } if (num % 3 !== 0 && num % 5 === 0){
+//     return "Buzz"
+//   } if (num % 3 === 0 && num % 5 === 0){
+//     return "FizzBuzz"
+//   } if (num % 3 !== 0 && num % 5 !== 0){
+//     return num
+//   }
+// }
 
 
 /**********************************
